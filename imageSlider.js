@@ -19,4 +19,4 @@ export const imageSlider = [
        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZc0wJolRztECYxSd145RxKvty_brrckv6ig&usqp=CAU",
        link: "https://www.flipkart.com/search?q=apple+macbook+pro&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_9_na_na_na&as-pos=2&as-type=RECENT&suggestionId=apple+macbook+pro%7CLaptops&requestId=dedce596-a64c-48bc-b425-788bd4a8cac3&as-searchtext=apple%20macbook%20pro"
     }
- ]
+]
