@@ -355,7 +355,7 @@ header{
     position: relative;
     height: 280px;
     padding: 10px 0px;
-    background-color: #d6620a;
+    background-color: #f9f8f7;
     padding: 10px 0px;
     /* min-width: 300px;
     width: 100.2%;
@@ -422,7 +422,7 @@ header{
 }
 .coursedata_moreOpt{
     padding-right: 5px;
-    height: 150px;
+    height: 130px;
     max-width: 220px;
     background-color: #f5f8fb;
     position: relative;
@@ -685,4 +685,17 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 100%;
+}
+
+.coursedata_moreOpt {
+    padding-right: 5px;
+    height: 180px;
+    max-width: 210px;
+    background-color: #f5f8fb;
+    position: relative;
+    bottom: 0;
+}
+
+@media screen and (max-width: 600px){
+    
 }
