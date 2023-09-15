@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav {
+    height: 50px;
+    background-color: rgb(138, 138, 219);
+    font-size: 14px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+}
+nav a:hover, .mobile-nav-bar a:hover {
+    color: rgb(209, 209, 209);
+}
+
+.hambar {
+    margin-right: 20px;
+}
+
+.mobile-nav-bar {
+    position: fixed;
+    background-color: rgb(138, 138, 219);
+    right: 0;
+    height: calc(100vh - 50px);
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    transform: translateX(180px);
+    transform: translateX(0);
+    border-top: 1px solid white;
+    z-index: 20;
+}
+
+.mobile-nav-bar a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    position: relative;
+    box-shadow: 0 0 5px black;
+    /* height: 430px; */
+    height: 550px;
+    width: 90vw;
+    max-width: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-part {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.middle-line {
+    position: relative;
+    height: 90%;
+    width: 1px;
+    background-color: black;
+}
+
+.right-part {
+    position: relative;
+    height: 100%;
+    width: calc(70% - 1px);
+}
+
+.profile {
+    background-color: rgb(163, 163, 163);
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    height: 65%;
+}
+
+.details-box {
+    position: relative;
+    margin-top: 20px;
+    width: 96%;
+    left: -2%;
+}
+
+.details-box div {
+    height: 50px;
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-box div:hover {
+    background-color: rgb(188, 241, 233);
+}
+
+.right-part .heading {
+    font-size: 150%;
+    margin-top: 10%;
+}
+
+.right-part p {
+    margin-left: 10%;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .container {
+        justify-content: center;
+    }
+    .middle-line, .right-part {
+        display: none;
+    }
+    .left-part {
+        width: 100%;
+    }
+    .details-box {
+        left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .elements {
+        display: none;
+    }
+}
+@media (min-width: 450px) {
+    .hambar, .mobile-nav-bar {
+        display: none;
+    }
+}
+
+
+/*************Progress Part*******************/
+
+.progress-part, .basic-details-part, .interests-part, .settings-part {
+    /* background-color: green; */
+    height: 80%;
+}
+
+.all-courses {
+    position: relative;
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 10%;
+}
+
+.couse-progress {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.couse-progress .course-name {
+    position: relative;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+.couse-progress .parent-line {
+    position: absolute;
+    height: 30px;
+    width: 70%;
+    background-color: rgb(188, 188, 188);
+    border-radius: 20px;
+    right: 5%;
+}
+
+.couse-progress .child-line {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: green;
+    border-radius: 20px;
+}

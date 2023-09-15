@@ -1,0 +1,20 @@
+* {
+    user-select: none;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.main-container-python {
+    height: 10000px;
+}
+
+.course-name {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
