@@ -137,7 +137,7 @@ header{
 }
 .login_menu{
     position: absolute;
-    top: 3rem;
+    top: 2rem;
     height: 22rem;
     width: 100%;
     width: 15rem;
@@ -145,7 +145,7 @@ header{
     margin-left: -3rem;
     transform: translateX(-25%);
     display: none;
-    padding-top: 15px;
+    padding-top: 0.75rem;
     z-index: 20;
 } 
 .login_menu::before{
