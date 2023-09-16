@@ -406,6 +406,7 @@ header{
     align-items: center;
     overflow: hidden;
     transition: transform 1s;
+    object-fit: cover;
 }
 .imageSliderItem img{
     width: 99%;
