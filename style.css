@@ -500,10 +500,10 @@ header{
    
 }
 .coursedata_image_Product img{
-    height: 95%;
+    height: 100%;
     width: 100%;
-    margin-bottom: 5px;
-    padding-right: 5px;
+    margin-bottom: 2px;
+    padding-right: 2px;
     object-fit: cover;
 }
 .coursedata_moreOpt img{
@@ -556,7 +556,6 @@ header{
     scroll-behavior: smooth;
     white-space: wrap;
 }
-
 
 
 
